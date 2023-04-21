@@ -1,0 +1,36 @@
+table, th, td {
+  border: 1px solid black;
+}
+ tr:nth-child(even){
+ background-color:rgb(71, 108, 60);
+}
+tr:nth-child(odd){
+ background-color:rgb(255, 223, 60);
+}
+
+
+p {
+   font-family: 'TipotypeRegular';
+   font-weight: normal;
+   font-style: normal;
+}
+#red {
+color:Red;
+} 
+div p {
+ color:purple;
+}
+div:hover {
+  background-color: yellow;
+}
+
+p.Piri::first-letter {
+  color: black;
+  font-size: 200%;
+}
+div {
+    width: 320px;
+    padding: 10px;
+    border: 5px solid green;
+    margin: 0;
+}
