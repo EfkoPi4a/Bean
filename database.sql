@@ -1,3 +1,4 @@
+Drop DATABASE IF EXISTS efkodb;
 CREATE DATABASE efkodb;
 USE efkodb;
 CREATE TABLE potrebiteli(
